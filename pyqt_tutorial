@@ -1,0 +1,20 @@
+1. QVBox, QHBox는 같이 가야 하나? Layout에 setting 해 줘야 한다. 이 때, Window에 QDialog를 상속해줘야 한다. 
+2. QWindows, QDialog 언제 mainwindow에 상속하는 지? (???)
+
+3. connect로 움직임들을 강제 할 수 있다. 
+
+4. spinbox는 범위 내에서 숫자를 조절 할 수 있다. 
+
+5. QLabel이 값을 받기 위해서 사용될 수 있는데 특정 영역을 지정해놓고 어떤 event가 발생했을 때 setText로 값을 주고 (매서드) 이를 connect 해주면 된다. 
+
+6. 이미지 받는거 QPixmap, QLabel로 하면 된다. 되게 쉬움.. 
+
+7. SetGeometry는 언제 설정하는 거지?
+
+8. Layout에 addwidget 하는건 어떻게 작용하는거지? 안 하는 경우에는 반영이 안 되나?
+
+9. slider로 조절 가능. 드래그는 어디에? -> label, pixmap, 조합으로 CT sliding 기능 개발 할 수 있다. (wow) 
+
+10. table은 Qwidget을 상속시켜줘야 한다. 이거 구분하는거 좀 잘 해야 할듯.
+
+
